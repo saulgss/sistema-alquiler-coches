@@ -14,10 +14,10 @@ import java.sql.*;
  */
 public class ConexionBBDD {
     private static ConexionBBDD miConexion = null;
-    private String db = "vehiculos";
-    private String cadDeConexion = "jdbc:mysql://127.0.0.1/" +db; 
-    private String user = "root";
-    private String pass = "";
+    private String db = "Vehiculos";
+    private String cadDeConexion = "jdbc:mysql://127.0.0.1:3306/" +db; 
+    private String user = "administrador";
+    private String pass = "1234";
     
     public static ConexionBBDD con() {
         if (miConexion != null) {
